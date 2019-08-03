@@ -1,0 +1,167 @@
+/* ---------------global css----------------- */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #b5b0b01c;
+}
+h1,
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #ed145a;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #222;
+}
+
+li {
+  list-style: none;
+}
+/* header---------------------------- */
+#logo {
+  color: darkblue;
+  padding-left: 30px;
+}
+header a {
+  text-transform: uppercase;
+}
+.top-nav {
+  position: absolute;
+  top: 40px;
+  right: 55px;
+}
+.top-nav a {
+  padding: 8px;
+}
+
+/* main content area----------------*/
+.content-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hero-container {
+  background-image: url(./img/hero.jpg);
+  background-size: cover;
+  height: auto;
+  text-align: center;
+  padding: 80px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #101010;
+}
+.hero-container h2 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+.hero-container p {
+  font-size: 25px;
+  line-height: 55px;
+}
+
+/* content----------------------------------- */
+.card {
+  border: 2px solid #eee;
+  box-shadow: #ccc 0 1px 3px;
+  border-radius: 5px;
+  width: 30%;
+  overflow: hidden;
+}
+.card > img {
+  width: 50%;
+  float: left;
+  margin-right: 2%;
+}
+.card h3 {
+  text-transform: capitalize;
+  margin-bottom: 3px;
+}
+.card p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+.flex-display {
+  display: flex;
+}
+.flex-display .item {
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  margin-right: 2%;
+  width: 48%;
+  background-color: #ffffff;
+}
+
+/* footer --------------------------*/
+
+.footer-wrapper {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 20px 0 20px;
+  margin-top: 5%;
+  border-top: 1px solid #0000001c;
+  font-weight: 500;
+}
+.address-container {
+  float: left;
+  width: 33.33%;
+  font-family: monospace;
+  font-style: italic;
+  font-weight: 700;
+}
+.address {
+  color: #af1f1f;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.social-link a {
+  border-left: 1px solid #dedede;
+  padding: 3px 8px;
+  border-right: 1px solid #dedede;
+}
+.social-link {
+  position: relative;
+  top: 44px;
+  left: 168px;
+}
+.fa-facebook:hover {
+  color: blue;
+  font-size: 22px;
+}
+
+.fa-twitter:hover {
+  color: lightblue;
+  font-size: 22px;
+}
+.fa-linkedin:hover {
+  color: blueviolet;
+  font-size: 22px;
+}
+.credit {
+  float: right;
+  width: 33.33%;
+  text-align: right;
+  margin-bottom: 0;
+}
