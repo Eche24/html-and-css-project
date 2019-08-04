@@ -39,20 +39,28 @@ li {
   list-style: none;
 }
 /* header---------------------------- */
+header, footer {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #logo {
   color: darkblue;
   padding-left: 30px;
+  margin-left: 2%;
 }
 header a {
   text-transform: uppercase;
 }
 .top-nav {
-  position: absolute;
+  /* position: absolute;
   top: 40px;
-  right: 55px;
+  right: 55px; */
+  margin-right: 2%;
 }
 .top-nav a {
   padding: 8px;
+
 }
 
 /* main content area----------------*/
@@ -86,7 +94,6 @@ header a {
   border: 2px solid #eee;
   box-shadow: #ccc 0 1px 3px;
   border-radius: 5px;
-  width: 30%;
   overflow: hidden;
 }
 .card > img {
@@ -117,19 +124,16 @@ header a {
 /* footer --------------------------*/
 
 .footer-wrapper {
-  width: 100%;
-  overflow: hidden;
+  
   padding: 20px 20px 0 20px;
   margin-top: 5%;
   border-top: 1px solid #0000001c;
   font-weight: 500;
 }
 .address-container {
-  float: left;
-  width: 33.33%;
   font-family: monospace;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 700; 
 }
 .address {
   color: #af1f1f;
@@ -141,11 +145,7 @@ header a {
   padding: 3px 8px;
   border-right: 1px solid #dedede;
 }
-.social-link {
-  position: relative;
-  top: 44px;
-  left: 168px;
-}
+
 .fa-facebook:hover {
   color: blue;
   font-size: 22px;
@@ -160,8 +160,7 @@ header a {
   font-size: 22px;
 }
 .credit {
-  float: right;
-  width: 33.33%;
+ 
   text-align: right;
   margin-bottom: 0;
 }
